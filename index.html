@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+      Poetry
+    </title>
+    <link rel="stylesheet" href="./stylesheet.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous">
+    </script>
+    <script src="./myScript.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&display=swap"
+    rel="stylesheet">
+  </head>
+  
+  <body>
+    <div class="px-4 pt-5 my-5 text-center">
+      <h1 class="display-4 fw-bold text-body-emphasis poetry-text">
+        Poet·ry
+      </h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4 paragraph">
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height:43vh;">
+        <div class="container px-5">
+          <img src="./assets/poetry-watercolor.jpg" class="img-fluid rounded-3 shadow-lg mb-4"
+          alt="Watercolor poetry illustration" width="700" height="600">
+        </div>
+      </div>
+    </div>
+    <div id="poems" class="container py-4" style="opacity:0.4">
+      <div class="poems-content">
+        <h1>
+          Poems
+        </h1>
+        <p class="author left">
+          E. E. Cummings
+        </p>
+        <br>
+        <p class="border-end">
+          "i carry your heart with me(i carry it in my heart)i am never without
+          it(anywhere i go you go,my dear;and whatever is done by only me is your
+          doing,my darling) [...]"
+        </p>
+        </p>
+        <p class="author right">
+          William Shakespeare
+        </p>
+        <br>
+        <p class="right border-start">
+          "Let me not to the marriage of true minds Admit impediments. Love is not
+          love Which alters when it alteration finds, Or bends with the remover to
+          remove. O no! it is an ever-fixed mark That looks on tempests and is never
+          shaken [...]"
+        </p>
+        <p class="author left">
+          Robert Frost
+        </p>
+        <br>
+        <p class="border-end">
+          "Some say the world will end in fire, Some say in ice. From what I’ve
+          tasted of desire I hold with those who favor fire. But if it had to perish
+          twice, I think I know enough of hate To say that for destruction ice Is
+          also great And would suffice"
+        </p>
+      </div>
+    </div>
+    <div class="panel">
+      <div id="flip" class="fw-bold">
+        Famous poets
+      </div>
+      <div id="panel-down">
+        Some of the examples of famous poets: William Wordsworth, William Shakespeare,
+        E. E. Cummings, Oscar Wilde, Emily Dickinson, Rabindranath Tagore.
+      </div>
+    </div>
+    <div class="poetry-section">
+      <img id="target-one" class="col-lg-6 col-sm-12" src="./assets/poetry.png" alt="Open book and quill illustration">
+      </img>
+      <div class="poetry-facts">
+        <h2>
+          Poetry facts
+          </p>
+          <p>
+            The earliest forms of poetry predate written language. They were sung
+            or recited to help people remember genealogy, laws, and oral history.
+          </p>
+          <p>
+            Poet's Day is celebrated every August 21.
+          </p>
+          <p>
+            The word "poetry" is from the Greek term poiesis, which means "making."
+          </p>
+      </div>
+    </div>
+    <div class="wrap-layer">
+      <div class="background-layer">
+        <svg viewbox="0 0 100 40" preserveAspectRatio="none" class="box">
+          <rect fill="rgb(41, 41, 156)" width="100%" height="100%" />
+          <ellipse class="moon" cx="10" cy="8" rx="4" ry="4" fill="yellow" opacity="0.1"
+          />
+          <ellipse class="moon" cx="10" cy="8" rx="4.5" ry="4.5" fill="yellow" opacity="0.1"
+          />
+          <ellipse class="moon" cx="10" cy="8" rx="3" ry="3" fill="yellow" />
+          <ellipse class="moon" cx="13" cy="7" rx="4" ry="5" fill="rgb(41, 41, 156)"
+          />
+          <ellipse class="moon" cx="10" cy="8" rx="3" ry="3" fill="yellow" opacity="0.02"
+          />
+          <circle class="shooting-star" cx="0" cy="30" r="0.8" fill="yellow" opacity="0.6"
+          />
+          <circle class="shooting-star" cx="0" cy="30" r="0.5" fill="yellow" opacity="0.6"
+          />
+          <circle cx="50" cy="80" r="60" fill="yellow" opacity="0.2" />
+          <circle cx="50" cy="90" r="60" fill="yellow" opacity="0.1" />
+          <circle cx="50" cy="100" r="90" fill="yellow" opacity="0.1" />
+          <circle cx="50" cy="130" r="110" fill="yellow" opacity="0.1" />
+          <path id="mediumPath" d="M 0,35 C 38,10 24,30 50,23 S 80,70,90" />
+          <text>
+            <textPath style="opacity:0.7" startOffset="29%" href="#mediumPath" id="mediumPath">
+              “Poetry is an echo, asking a shadow to dance.” —Carl Sandburg
+            </textPath>
+          </text>
+          <path id="bigPath" d="M -10,40 C 10,0 74,15 90,40 S 120,100,140" />
+          <text>
+            <textPath startOffset="31%" href="#bigPath" id="bigPath">
+              “Poetry is eternal graffiti written in the heart of everyone.” —Lawrence
+              Ferlinghetti
+            </textPath>
+          </text>
+          <path id="bigPathTwo" d="M 20,32 C 30,0 4,10 100,22 S 120,100,140" />
+          <text>
+            <textPath style="opacity:0.5" startOffset="41%" href="#bigPathTwo" id="bigPath">
+              “Poetry is a way of taking life by the throat.” —Robert Frost
+            </textPath>
+          </text>
+          <path id="smallPath" d="M 0,40 C 20,30 24,45 40,30 S 120,100,14" />
+          <text>
+            <textPath startOffset="10%" href="#smallPath" id="smallPath">
+              “Poetry is eternal graffiti written in the heart of everyone.” —Lawrence
+              Ferlinghetti
+            </textPath>
+          </text>
+        </svg>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js">
+    </script>
+    <script src="./myScript.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous">
+    </script>
+  </body>
+</html>

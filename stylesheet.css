@@ -1,0 +1,75 @@
+* {
+  font-family:'Libre Baskerville',serif;
+}
+.poetry-section {
+  align-content:center;
+  padding:6rem 5rem 2rem 5rem;
+  max-width:100%;
+  padding-top:1.5rem;
+  font-size:2rem;
+  background-color:rgb(107,107,216);
+  color:white;
+}
+p {
+  font-size:0.8rem;
+}
+.left {
+  text-align:left;
+}
+.right {
+  text-align:right;
+}
+#target-one {
+  width:6vw;
+  height:6vw;
+  justify-content:center;
+  align-items:center;
+}
+.panel {
+  color:white;
+}
+#panel-down,#flip {
+  padding:1rem 5.5rem;
+  text-align:left;
+  background-color:#4f59da;
+}
+#panel-down {
+  padding:3rem 5rem;
+  display:none;
+  font-size:0.8rem;
+}
+.paragraph {
+  padding:1rem 2rem;
+}
+.wrap-layer {
+  position:relative;
+  height:10%;
+}
+#poems {
+  opacity:0.3;
+}
+text,textPath {
+  fill:white;
+  color:white;
+  opacity:0.95;
+}
+#bigPath {
+  font-size:0.12vw;
+}
+#mediumPath {
+  font-size:0.08vw;
+}
+#smallPath {
+  font-size:0.05vw;
+}
+path {
+  fill:none;
+}
+.author {
+  font-weight:bold;
+  margin:none;
+  padding-top:3rem;
+}
+.poetry-text {
+  opacity:0.3;
+}
