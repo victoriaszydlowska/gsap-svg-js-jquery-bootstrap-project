@@ -13,7 +13,7 @@ https://bookriot.com/30-quotes-about-poetry/ <br />
 https://www.yourdictionary.com/articles/short-love-poems-ideas  <br />
 https://www.poetrysoup.com/famous/poets/most_popular_famous_poets.aspx <br />
 https://www.bing.com/search?q=poetry+definition&cvid=279e5f7e59c44bcd8055527b3672e11b&gs_lcrp=EgZjaHJvbWUqBAgAEAAyBAgAEAAyBAgBEAAyBAgCEAAyBAgDEAAyBAgEEAAyBAgFEAAyBAgGEAAyBAgHEAAyBAgIEADSAQgzNTA1ajBqNKgCALACAA&FORM=ANAB01&PC=U531
-*Oxford Languages <br />
+data from Oxford Languages <br />
 https://www.motiontricks.com/gsap-5-minute-quick-start/ <br />
 https://www.w3schools.com/jquery/jquery_slide.asp <br />
 https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_slide_toggle <br />
