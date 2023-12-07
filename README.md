@@ -1,6 +1,6 @@
-# GSAP, SVG, JS, JQUERY and Bootstrap project
+# GSAP, SVG, VANILLA JS, JQUERY and Bootstrap project
 
-Project done using GreenSock Animation Platform, SVG, JS, JQUERY and Bootstrap. 
+Project done using GreenSock Animation Platform, SVG, VANILLA JS, JQUERY and Bootstrap. 
 
 Please preview it in your browser or open the link https://victoriaszydlowska.github.io/gsap-svg-js-jquery-bootstrap-project/.
 
